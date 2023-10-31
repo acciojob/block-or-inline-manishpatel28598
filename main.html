@@ -7,6 +7,65 @@
 </head>
 
 <body>
+	<div data-ns-test="block-inline-button">
+  <button ...>Test 1</button>
+  <button ...>Test 2</button>
+  Anwer: Inline
+   </div>
+	<div data-ns-test="block-inline-div">
+       <div><button>Test 1</button></div>
+		<div><button>Test 2</button></div>
+  Anwer: block
+	</div>
+	<div data-ns-test="block-inline-div">
+		<span>
+			<button>Test 1</button>
+		</span>
+		<span>
+			<button>Test 2</button>
+		</span>
+		Anwer: inline
+	</div>
+	<div data-ns-test="block-inline-p">
+		<div>
+			<p>Test 1</p>
+		</div>
+		<div>
+			<p>Test 2</p>
+		</div>
+		Anwer: block
+	</div>
+	<div data-ns-test="block-inline-input">
+		
+			<input type="text">
+			<input type="text">
+		Anwer: inline
+	</div>
+	<div data-ns-test="block-inline-cite">
+			<cite>test 1</cite>
+		    <cite>test 2</cite>
+		Anwer: inline
+	</div>
+	<div data-ns-test="block-inline-code">
+		<code> test 1</code>
+		<code> test 2</code>
+		Anwer: inline
+	</div>
+	<div data-ns-test="block-inline-h1">
+		<h1> test 1</h1>
+		<h1> test 2</h1>
+		Anwer: block
+	</div>
+	<div data-ns-test="block-inline-sup">
+		<sup> test 1</sup>
+		<sup> test 2</sup>
+		Anwer: inline
+	</div>
+	<div data-ns-test="block-inline-sub">
+		<sub> test 1</sub>
+		<sub> test 2</sub>
+		Anwer: inline
+	</div>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
